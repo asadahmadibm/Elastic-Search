@@ -30,4 +30,6 @@ Kibana: یک ابزار تجسم و مدیریت برای Elasticsearch است �
 
 2- Go to Advanced system settings -> Environment Variables -> system variable -> Path : add to Variable value  \;C:\Program Files\Java\jdk1.8.0_351\bin
 
+3- Go To Elastic Site And Download & install
+
 
