@@ -30,7 +30,9 @@ Kibana: یک ابزار تجسم و مدیریت برای Elasticsearch است �
 
 2- Go to Advanced system settings -> Environment Variables -> system variable -> Path : add to Variable value  \;C:\Program Files\Java\jdk1.8.0_351\bin
 
-3- Go To Elastic Site And Download & install
+3- Go To Elastic Site And Download & install  : https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.8.1-windows-x86_64.zip
+
+4- unzip & run elasticsearch.bat
 
 4- localhost:9200 
 
