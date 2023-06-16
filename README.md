@@ -91,3 +91,40 @@ elasticsearch.username: "elastic"
   
 elasticsearch.password: "Password"
 
+# Access Kibana’s Console Dev Tools
+    
+    ## Creating an Index
+    
+
+            PUT car
+            {
+            "mappings":{
+            "_doc": {
+            "properties": {
+            "model" : { "type" : "text" },
+            "year": {"type" : "integer"},
+            "engine": {"type": "text"},
+            "star": {"type": "text"}
+            }
+            }
+            }
+            }
+    
+    ## Creating a Document
+
+    
+            POST car/_doc/1
+            {
+            "model": "Porshe",
+            "year": 1972,
+            "engine": "2.0-liter four-cylinder Macan",
+            "horsepower": "252hp",
+            "genres": ["Sporty", "Classic"]
+            }
+    
+   ## Make a GET Request 
+    
+            GET car/_doc/1
+    
+    
+    
