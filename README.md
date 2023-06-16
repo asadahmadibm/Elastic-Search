@@ -36,7 +36,17 @@ Kibana: یک ابزار تجسم و مدیریت برای Elasticsearch است �
 
 3- Go To Elastic Site And Download & install  : https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.8.1-windows-x86_64.zip
 
-4- unzip & run elasticsearch.bat  or install as service : a : run powershell as admin  b: goto path elasticsearch & run \bin\elasticsearch-service.bat install c: in services start or stop
+4- unzip & run elasticsearch.bat  or 
+    
+    install as service : 
+    
+      a : run powershell as admin  
+      
+      b: goto path elasticsearch & run \bin\elasticsearch-service.bat install 
+      
+      c: run bin\elasticsearch-service.bat manager goto tab Java  add -Djava.io.tmpdir=C:\elstemp to javaoption
+      
+      c: in services start or stop
 
 5- change password by bin/elasticsearch-setup-passwords interactive
 
