@@ -124,7 +124,8 @@ elasticsearch.password: "Password"
     
    ## Make a GET Request 
     
-            GET car/_doc/1
+            in dev tools kibana : GET car/_doc/1
+            in post man         : http://localhost:9200/car/_doc/1
     
     
     
