@@ -93,7 +93,7 @@ elasticsearch.password: "Password"
 
 # Access Kibana’s Console Dev Tools
     
-    ## Creating an Index
+  ## Creating an Index
     
 
             PUT car
@@ -110,7 +110,7 @@ elasticsearch.password: "Password"
             }
             }
     
-    ## Creating a Document
+  ## Creating a Document
 
     
             POST car/_doc/1
