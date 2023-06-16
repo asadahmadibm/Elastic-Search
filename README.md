@@ -42,6 +42,8 @@ Kibana: یک ابزار تجسم و مدیریت برای Elasticsearch است �
 
 6- localhost:9200 
 
+7- install kibana &  localhost:5601 
+
 
 # More 
 تنظیمات امنیتی:
