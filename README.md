@@ -52,7 +52,7 @@ Kibana: یک ابزار تجسم و مدیریت برای Elasticsearch است �
 
 6- localhost:9200 
 
-7- install kibana &  localhost:5601 
+7- install kibana &  localhost:5601       to inatall goto [https://arazcloud.com/blog/what-is-kibana/](https://arazcloud.com/blog/what-is-kibana/)
 
 
 # More 
