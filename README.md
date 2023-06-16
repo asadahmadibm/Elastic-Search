@@ -32,4 +32,6 @@ Kibana: یک ابزار تجسم و مدیریت برای Elasticsearch است �
 
 3- Go To Elastic Site And Download & install
 
+4- localhost:9200 
+
 
